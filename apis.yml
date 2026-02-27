@@ -1,0 +1,122 @@
+name: Tallyman API
+description: Collection management and debt recovery platform APIs
+image: https://www.tallyman.co.uk/logo.png
+url: https://www.tallyman.co.uk
+created: '2024'
+modified: '2024'
+tags:
+- collections
+- debt recovery
+- credit management
+- financial services
+- CRM
+apis:
+- name: Tallyman Collections API
+  description: Core API for managing debt collections, customer accounts, and payment arrangements
+  image: https://www.tallyman.co.uk/api-logo.png
+  humanURL: https://www.tallyman.co.uk/collections
+  baseURL: https://api.tallyman.co.uk/v1
+  tags:
+  - collections
+  - accounts
+  - payments
+  - arrangements
+  properties:
+  - type: Documentation
+    url: https://docs.tallyman.co.uk/api/collections
+  - type: OpenAPI
+    url: https://api.tallyman.co.uk/v1/openapi.json
+  - type: Authentication
+    url: https://docs.tallyman.co.uk/api/authentication
+  - type: Swagger
+    url: https://api.tallyman.co.uk/swagger
+  - type: Postman Collection
+    url: https://www.postman.com/tallyman/collections
+  - type: Rate Limits
+    url: https://docs.tallyman.co.uk/api/rate-limits
+  - type: Status
+    url: https://status.tallyman.co.uk
+  contact:
+  - type: Support
+    url: https://support.tallyman.co.uk
+  - type: Email
+    url: mailto:api-support@tallyman.co.uk
+  - type: Twitter
+    url: https://twitter.com/tallymantech
+- name: Tallyman Customer API
+  description: API for managing customer information, communication preferences, and profile data
+  humanURL: https://www.tallyman.co.uk/customer-api
+  baseURL: https://api.tallyman.co.uk/v1/customers
+  tags:
+  - customers
+  - profiles
+  - communications
+  - preferences
+  properties:
+  - type: Documentation
+    url: https://docs.tallyman.co.uk/api/customers
+  - type: OpenAPI
+    url: https://api.tallyman.co.uk/v1/customers/openapi.json
+- name: Tallyman Payment API
+  description: API for processing payments, refunds, and payment plan management
+  humanURL: https://www.tallyman.co.uk/payment-api
+  baseURL: https://api.tallyman.co.uk/v1/payments
+  tags:
+  - payments
+  - transactions
+  - refunds
+  - payment plans
+  properties:
+  - type: Documentation
+    url: https://docs.tallyman.co.uk/api/payments
+  - type: OpenAPI
+    url: https://api.tallyman.co.uk/v1/payments/openapi.json
+  - type: Security
+    url: https://docs.tallyman.co.uk/api/payment-security
+- name: Tallyman Reporting API
+  description: API for generating reports, analytics, and business intelligence data
+  humanURL: https://www.tallyman.co.uk/reporting-api
+  baseURL: https://api.tallyman.co.uk/v1/reports
+  tags:
+  - reporting
+  - analytics
+  - business intelligence
+  - metrics
+  properties:
+  - type: Documentation
+    url: https://docs.tallyman.co.uk/api/reporting
+  - type: OpenAPI
+    url: https://api.tallyman.co.uk/v1/reports/openapi.json
+- name: Tallyman Webhooks API
+  description: Event-driven webhooks for real-time notifications on collection activities
+  humanURL: https://www.tallyman.co.uk/webhooks
+  baseURL: https://api.tallyman.co.uk/v1/webhooks
+  tags:
+  - webhooks
+  - events
+  - notifications
+  - real-time
+  properties:
+  - type: Documentation
+    url: https://docs.tallyman.co.uk/api/webhooks
+  - type: Event Catalog
+    url: https://docs.tallyman.co.uk/api/webhook-events
+common:
+- type: Getting Started
+  url: https://docs.tallyman.co.uk/getting-started
+- type: Authentication
+  url: https://docs.tallyman.co.uk/authentication
+- type: SDKs
+  url: https://docs.tallyman.co.uk/sdks
+- type: Terms of Service
+  url: https://www.tallyman.co.uk/terms
+- type: Privacy Policy
+  url: https://www.tallyman.co.uk/privacy
+- type: Change Log
+  url: https://docs.tallyman.co.uk/changelog
+- type: Contact
+  url: https://www.tallyman.co.uk/contact
+maintainers:
+- name: Tallyman API Team
+  email: api-team@tallyman.co.uk
+  twitter: '@tallymantech'
