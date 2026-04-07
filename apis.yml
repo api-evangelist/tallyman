@@ -6,11 +6,11 @@ url: https://www.tallyman.co.uk
 created: '2024'
 modified: '2026-03-16'
 tags:
-  - collections
-  - debt recovery
-  - credit management
-  - financial services
+  - Collections
+  - Credit Management
   - CRM
+  - Debt Recovery
+  - Financial Services
 apis:
   - name: Tallyman Collections API
     description: >-
@@ -19,10 +19,10 @@ apis:
     humanURL: https://www.tallyman.co.uk/collections
     baseURL: https://api.tallyman.co.uk/v1
     tags:
-      - collections
-      - accounts
-      - payments
-      - arrangements
+      - Accounts
+      - Arrangements
+      - Collections
+      - Payments
     properties:
       - type: Documentation
         url: https://docs.tallyman.co.uk/api/collections
@@ -52,10 +52,10 @@ apis:
     humanURL: https://www.tallyman.co.uk/customer-api
     baseURL: https://api.tallyman.co.uk/v1/customers
     tags:
-      - customers
-      - profiles
-      - communications
-      - preferences
+      - Communications
+      - Customers
+      - Preferences
+      - Profiles
     properties:
       - type: Documentation
         url: https://docs.tallyman.co.uk/api/customers
@@ -67,10 +67,10 @@ apis:
     humanURL: https://www.tallyman.co.uk/payment-api
     baseURL: https://api.tallyman.co.uk/v1/payments
     tags:
-      - payments
-      - transactions
-      - refunds
-      - payment plans
+      - Payment Plans
+      - Payments
+      - Refunds
+      - Transactions
     properties:
       - type: Documentation
         url: https://docs.tallyman.co.uk/api/payments
@@ -84,10 +84,10 @@ apis:
     humanURL: https://www.tallyman.co.uk/reporting-api
     baseURL: https://api.tallyman.co.uk/v1/reports
     tags:
-      - reporting
-      - analytics
-      - business intelligence
-      - metrics
+      - Analytics
+      - Business Intelligence
+      - Metrics
+      - Reporting
     properties:
       - type: Documentation
         url: https://docs.tallyman.co.uk/api/reporting
@@ -99,10 +99,10 @@ apis:
     humanURL: https://www.tallyman.co.uk/webhooks
     baseURL: https://api.tallyman.co.uk/v1/webhooks
     tags:
-      - webhooks
-      - events
-      - notifications
-      - real-time
+      - Events
+      - Notifications
+      - Real-Time
+      - Webhooks
     properties:
       - type: Documentation
         url: https://docs.tallyman.co.uk/api/webhooks
