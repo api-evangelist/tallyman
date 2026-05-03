@@ -1,112 +1,23 @@
-# Tallyman API (tallyman)
-Collection management and debt recovery platform APIs
+# Tallyman
 
-**URL:** [Visit APIs.json URL](https://www.tallyman.co.uk)
+Tallyman is Experian's collections and recoveries management software platform, originally developed by Talgentra and acquired by Experian in 2007. It provides an end-to-end collections management system for financial services, utilities, telecommunications, and public sector organizations managing overdue debt.
 
-## Tags:
+**Website:** https://www.experian.com/business/solutions/debt-management-collections  
+**Developer Portal:** https://developer.experian.com
 
- - collections, debt recovery, credit management, financial services, CRM
+## About
 
-## Timestamps
+Tallyman is a B2B enterprise software platform operated by Experian. It manages end-to-end collections processes through three core functions: decisioning (customer segmentation and strategy setting), collections (managing customers and the collection process), and analytics (modeling strategies and predicting outcomes).
 
-- **Created:** 2024 
-- **Modified:** 2024 
+The platform integrates with Experian Decision Analytics, Strategy Management decision engine, CRM systems, billing platforms, and external data sources via web service dictionaries. It is available as a hosted service managed from Experian's data centres.
 
-## APIs
+Tallyman does not have a public developer API. Integrations are available to enterprise customers through Experian's implementation services.
 
-### Tallyman Collections API
-Core API for managing debt collections, customer accounts, and payment arrangements
+## Tags
 
-**Human URL:** [https://www.tallyman.co.uk/collections](https://www.tallyman.co.uk/collections)
-
-
-#### Tags:
-
- - collections, accounts, payments, arrangements
-
-#### Properties
-
-- [Documentation](https://docs.tallyman.co.uk/api/collections)
-- [OpenAPI](https://api.tallyman.co.uk/v1/openapi.json)
-- [Authentication](https://docs.tallyman.co.uk/api/authentication)
-- [Swagger](https://api.tallyman.co.uk/swagger)
-- [Postman Collection](https://www.postman.com/tallyman/collections)
-- [Rate Limits](https://docs.tallyman.co.uk/api/rate-limits)
-- [Status](https://status.tallyman.co.uk)
-
-### Tallyman Customer API
-API for managing customer information, communication preferences, and profile data
-
-**Human URL:** [https://www.tallyman.co.uk/customer-api](https://www.tallyman.co.uk/customer-api)
-
-
-#### Tags:
-
- - customers, profiles, communications, preferences
-
-#### Properties
-
-- [Documentation](https://docs.tallyman.co.uk/api/customers)
-- [OpenAPI](https://api.tallyman.co.uk/v1/customers/openapi.json)
-
-### Tallyman Payment API
-API for processing payments, refunds, and payment plan management
-
-**Human URL:** [https://www.tallyman.co.uk/payment-api](https://www.tallyman.co.uk/payment-api)
-
-
-#### Tags:
-
- - payments, transactions, refunds, payment plans
-
-#### Properties
-
-- [Documentation](https://docs.tallyman.co.uk/api/payments)
-- [OpenAPI](https://api.tallyman.co.uk/v1/payments/openapi.json)
-- [Security](https://docs.tallyman.co.uk/api/payment-security)
-
-### Tallyman Reporting API
-API for generating reports, analytics, and business intelligence data
-
-**Human URL:** [https://www.tallyman.co.uk/reporting-api](https://www.tallyman.co.uk/reporting-api)
-
-
-#### Tags:
-
- - reporting, analytics, business intelligence, metrics
-
-#### Properties
-
-- [Documentation](https://docs.tallyman.co.uk/api/reporting)
-- [OpenAPI](https://api.tallyman.co.uk/v1/reports/openapi.json)
-
-### Tallyman Webhooks API
-Event-driven webhooks for real-time notifications on collection activities
-
-**Human URL:** [https://www.tallyman.co.uk/webhooks](https://www.tallyman.co.uk/webhooks)
-
-
-#### Tags:
-
- - webhooks, events, notifications, real-time
-
-#### Properties
-
-- [Documentation](https://docs.tallyman.co.uk/api/webhooks)
-- [Event Catalog](https://docs.tallyman.co.uk/api/webhook-events)
-
-## Common Properties
-
-- [Getting Started](https://docs.tallyman.co.uk/getting-started)
-- [Authentication](https://docs.tallyman.co.uk/authentication)
-- [SDKs](https://docs.tallyman.co.uk/sdks)
-- [Terms of Service](https://www.tallyman.co.uk/terms)
-- [Privacy Policy](https://www.tallyman.co.uk/privacy)
-- [Change Log](https://docs.tallyman.co.uk/changelog)
-- [Contact](https://www.tallyman.co.uk/contact)
+Collections, Credit Management, Debt Management, Debt Recovery, Financial Services, Recoveries
 
 ## Maintainers
 
-**FN:** Tallyman API Team
-
-**Email:** api-team@tallyman.co.uk
+**FN:** Kin Lane  
+**Email:** kin@apievangelist.com
