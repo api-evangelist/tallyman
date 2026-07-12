@@ -25,6 +25,10 @@ modified: '2026-05-03'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: VulnerabilityDisclosure
+    url: security/tallyman-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/tallyman-domain-security.yml
   - type: Website
     url: https://www.experian.com/business/solutions/debt-management-collections
   - type: Documentation
