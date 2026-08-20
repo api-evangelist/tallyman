@@ -23,6 +23,13 @@ accessModel:
   method: derived
 image: https://www.experian.com/assets/images/experian-logo.png
 tags:
+  - Collection
+  - Credit Management
+  - Debt Management
+  - Debt Recovery
+  - Financial-Services
+  - Recoveries
+tags_raw:
   - Collections
   - Credit Management
   - Debt Management
