@@ -38,8 +38,9 @@ tags:
   - Credit Management
   - Debt Management
   - Debt Recovery
-  - Financial-Services
+  - Financial Services
   - Recoveries
+  - Debt Collection
 tags_raw:
   - Collections
   - Credit Management
@@ -47,6 +48,8 @@ tags_raw:
   - Debt Recovery
   - Financial Services
   - Recoveries
+  - Financial-Services
+  - Debt Collection
 url: >-
   https://raw.githubusercontent.com/api-evangelist/tallyman/refs/heads/main/apis.yml
 created: '2024-01-01'
