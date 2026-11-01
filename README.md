@@ -64,24 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Tallyman is Experian's collections and recoveries management software platform, originally developed by Talgentra and acquired by Experian in 2007. It provides an end-to-end collections management system for financial services, utilities, telecommunications, and public sector organizations managing overdue debt.
+Tallyman is Experian's collections and recoveries management software platform, acquired from Talgentra. It provides an end-to-end collections management system for financial services, utilities, telecommunications, and public sector organizations. The platform manages customer segmentation, contact strategies, decision automation, and analytics for debt collection operations. Tallyman integrates with Experian Decision Analytics, CRM systems, billing platforms, and external data sources via web services. It is available as a hosted service managed through Experian's data centres.
 
-**Website:** https://www.experian.com/business/solutions/debt-management-collections  
-**Developer Portal:** https://developer.experian.com
+**Areas:** Collection · Credit Management · Debt Management · Debt Recovery · Financial Services · Recoveries · Debt Collection
 
-## About
+## Tallyman on APIs.io
 
-Tallyman is a B2B enterprise software platform operated by Experian. It manages end-to-end collections processes through three core functions: decisioning (customer segmentation and strategy setting), collections (managing customers and the collection process), and analytics (modeling strategies and predicting outcomes).
+Everything profiled for Tallyman is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/tallyman/](https://apis.io/providers/tallyman/)** — or go straight to one of the APIs or properties below.
 
-The platform integrates with Experian Decision Analytics, Strategy Management decision engine, CRM systems, billing platforms, and external data sources via web service dictionaries. It is available as a hosted service managed from Experian's data centres.
+### Published properties
 
-Tallyman does not have a public developer API. Integrations are available to enterprise customers through Experian's implementation services.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Tags
+#### Security (2)
 
-Collections, Credit Management, Debt Management, Debt Recovery, Financial Services, Recoveries
+Authentication, trust centre, and vulnerability disclosure.
 
-## Maintainers
+- [Tallyman Domain Security](https://apis.io/security/tallyman/tallyman-domain-security/)
+- [Tallyman Vulnerability Disclosure](https://apis.io/security/tallyman/tallyman-vulnerability-disclosure/)
 
-**FN:** Kin Lane  
-**Email:** kin@apievangelist.com
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.experian.com/business/solutions/debt-management-collections)
+- [Documentation](https://www.experian.ae/en/tallyman-easystart/index)
+- [Terms of service](https://www.experian.com/terms)
+- [Privacy policy](https://www.experian.com/privacy/consumer-privacy-center)
+
+## API Evangelist rating
+
+**Kin Score 8.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 15.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/tallyman/](https://apis.io/providers/tallyman/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Tallyman: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/tallyman/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
